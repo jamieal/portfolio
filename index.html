@@ -162,6 +162,8 @@ nav { display: flex; justify-content: space-between; align-items: center; paddin
 .portfolio-info h3 { font-size: 18px; margin-bottom: 10px; }
 .portfolio-info p { font-size: 14px; color: var(--muted-text); margin-bottom: 15px; }
 .portfolio-link { display: inline-block; color: var(--primary-color); text-decoration: none; font-weight: 500; }
+.portfolio-image.coming-soon { display: flex; align-items: center; justify-content: center; background-color: var(--secondary-color); }
+.portfolio-image.coming-soon span { font-size: 14px; font-weight: 600; color: var(--muted-text); text-transform: uppercase; letter-spacing: 2px; }
 
 /* Contact */
 .contact-content { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
@@ -376,6 +378,35 @@ footer { background-color: var(--footer-bg); color: var(--footer-text); padding:
                         <h3>Ryddle - Daily Riddle Game</h3>
                         <p>A daily riddle game — you get a clue, guess the answer, and share how you did. Has timed rounds, streaks, and a simple interface. Built with React.</p>
                         <a href="https://ryddle.io/" class="portfolio-link" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="./images/which-mac.png" alt="Which Mac? - Find Your Perfect Mac">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Which Mac?</h3>
+                        <p>A step-by-step tool that helps you figure out which Mac actually fits your needs — based on what you do, your budget, and how hard you push it.</p>
+                        <a href="https://which-mac.netlify.app/" class="portfolio-link" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="./images/packet-panic.png" alt="Packet Panic - Roguelike System Defense">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Packet Panic</h3>
+                        <p>A roguelike system defense game with a retro terminal aesthetic. Deploy firewalls, fight off hostile packets, and upgrade your way through increasingly chaotic waves.</p>
+                        <a href="https://packet-panic.netlify.app/" class="portfolio-link" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image coming-soon">
+                        <span>Coming Soon</span>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>OS Orchard</h3>
+                        <p>In the works — more details soon.</p>
                     </div>
                 </div>
             </div>
